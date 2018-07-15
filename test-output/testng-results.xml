@@ -1,76 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="1" ignored="0" total="5" passed="4">
+<testng-results skipped="0" failed="1" ignored="0" total="2" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="MavenProject" duration-ms="127674" started-at="2018-07-15T11:28:26Z" finished-at="2018-07-15T11:30:33Z">
+  <suite name="MavenProject" duration-ms="102010" started-at="2018-07-15T12:35:25Z" finished-at="2018-07-15T12:37:07Z">
     <groups>
     </groups>
-    <test name="Selenium FB Project" duration-ms="127674" started-at="2018-07-15T11:28:26Z" finished-at="2018-07-15T11:30:33Z">
-      <class name="com.crm.qa.testcases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@402a079c]" name="setUp" is-config="true" duration-ms="27464" started-at="2018-07-15T16:58:27Z" finished-at="2018-07-15T16:58:54Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySearchFriends(java.lang.String)[pri:0, instance:com.crm.qa.testcases.HomePageTest@402a079c]" name="verifySearchFriends" duration-ms="3491" started-at="2018-07-15T16:58:54Z" data-provider="getFbTestData" finished-at="2018-07-15T16:58:58Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Saikumar]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearchFriends -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@402a079c]" name="tearDown" is-config="true" duration-ms="1304" started-at="2018-07-15T16:58:58Z" finished-at="2018-07-15T16:58:59Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@402a079c]" name="setUp" is-config="true" duration-ms="16503" started-at="2018-07-15T16:58:59Z" finished-at="2018-07-15T16:59:15Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySearchFriends(java.lang.String)[pri:0, instance:com.crm.qa.testcases.HomePageTest@402a079c]" name="verifySearchFriends" duration-ms="6077" started-at="2018-07-15T16:59:15Z" data-provider="getFbTestData" finished-at="2018-07-15T16:59:21Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Shravya]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearchFriends -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@402a079c]" name="tearDown" is-config="true" duration-ms="1658" started-at="2018-07-15T16:59:21Z" finished-at="2018-07-15T16:59:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.HomePageTest@402a079c]" name="setUp" is-config="true" duration-ms="28578" started-at="2018-07-15T16:59:23Z" finished-at="2018-07-15T16:59:52Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifySearchFriends(java.lang.String)[pri:0, instance:com.crm.qa.testcases.HomePageTest@402a079c]" name="verifySearchFriends" duration-ms="2537" started-at="2018-07-15T16:59:52Z" data-provider="getFbTestData" finished-at="2018-07-15T16:59:54Z">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Koshore]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifySearchFriends -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.crm.qa.testcases.HomePageTest@402a079c]" name="tearDown" is-config="true" duration-ms="1307" started-at="2018-07-15T16:59:54Z" finished-at="2018-07-15T16:59:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.crm.qa.testcases.HomePageTest -->
+    <test name="Selenium FB Project" duration-ms="102010" started-at="2018-07-15T12:35:25Z" finished-at="2018-07-15T12:37:07Z">
       <class name="com.crm.qa.testcases.LoginTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginTest@6500df86]" name="setUp" is-config="true" duration-ms="14541" started-at="2018-07-15T16:59:56Z" finished-at="2018-07-15T17:00:10Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginTest@6ebc05a6]" name="setUp" is-config="true" duration-ms="42540" started-at="2018-07-15T18:05:25Z" finished-at="2018-07-15T18:06:08Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="FAIL" signature="verifyLoginPageTitle()[pri:1, instance:com.crm.qa.testcases.LoginTest@6500df86]" name="verifyLoginPageTitle" duration-ms="70" started-at="2018-07-15T17:00:10Z" finished-at="2018-07-15T17:00:10Z">
+        <test-method status="FAIL" signature="verifyLoginPageTitle()[pri:1, instance:com.crm.qa.testcases.LoginTest@6ebc05a6]" name="verifyLoginPageTitle" duration-ms="227" started-at="2018-07-15T18:06:08Z" finished-at="2018-07-15T18:06:08Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Faebook – log in or sign up] but found [Facebook – log in or sign up]]]>
@@ -83,7 +24,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:115)
 	at org.testng.Assert.assertEquals(Assert.java:189)
 	at org.testng.Assert.assertEquals(Assert.java:199)
-	at com.crm.qa.testcases.LoginTest.verifyLoginPageTitle(LoginTest.java:27)
+	at com.crm.qa.testcases.LoginTest.verifyLoginPageTitle(LoginTest.java:30)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -115,19 +56,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPageTitle -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.qa.testcases.LoginTest@6500df86]" name="closeBrowser" is-config="true" duration-ms="715" started-at="2018-07-15T17:00:10Z" finished-at="2018-07-15T17:00:11Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.qa.testcases.LoginTest@6ebc05a6]" name="closeBrowser" is-config="true" duration-ms="1549" started-at="2018-07-15T18:06:08Z" finished-at="2018-07-15T18:06:10Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginTest@6500df86]" name="setUp" is-config="true" duration-ms="7712" started-at="2018-07-15T17:00:11Z" finished-at="2018-07-15T17:00:19Z">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.crm.qa.testcases.LoginTest@6ebc05a6]" name="setUp" is-config="true" duration-ms="36707" started-at="2018-07-15T18:06:10Z" finished-at="2018-07-15T18:06:47Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyLoginPage()[pri:2, instance:com.crm.qa.testcases.LoginTest@6500df86]" name="verifyLoginPage" duration-ms="13701" started-at="2018-07-15T17:00:19Z" finished-at="2018-07-15T17:00:32Z">
+        <test-method status="PASS" signature="verifyLoginPage()[pri:2, instance:com.crm.qa.testcases.LoginTest@6ebc05a6]" name="verifyLoginPage" duration-ms="18902" started-at="2018-07-15T18:06:47Z" finished-at="2018-07-15T18:07:05Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyLoginPage -->
-        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.qa.testcases.LoginTest@6500df86]" name="closeBrowser" is-config="true" duration-ms="859" started-at="2018-07-15T17:00:32Z" finished-at="2018-07-15T17:00:33Z">
+        <test-method status="PASS" signature="closeBrowser()[pri:0, instance:com.crm.qa.testcases.LoginTest@6ebc05a6]" name="closeBrowser" is-config="true" duration-ms="1900" started-at="2018-07-15T18:07:05Z" finished-at="2018-07-15T18:07:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

@@ -1,4 +1,6 @@
 S:\workspace\MavenProject\src\main\java\com\crm\qa\pages\HomePage.java
+S:\workspace\MavenProject\src\main\java\com\crm\qa\util\WebEventListener.java
+S:\workspace\MavenProject\src\main\java\com\crm\qa\extentreport\ExtentReportListener.java
 S:\workspace\MavenProject\src\main\java\com\crm\qa\base\TestBase.java
 S:\workspace\MavenProject\src\main\java\com\crm\qa\pages\SignUpPage.java
 S:\workspace\MavenProject\src\main\java\com\crm\qa\util\TestUtil.java

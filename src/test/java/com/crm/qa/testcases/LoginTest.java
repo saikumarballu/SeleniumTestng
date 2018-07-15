@@ -1,5 +1,6 @@
 package com.crm.qa.testcases;
 
+import org.apache.log4j.Logger;
 import org.testng.Assert;
 import org.testng.annotations.AfterMethod;
 import org.testng.annotations.BeforeMethod;
@@ -10,6 +11,7 @@ import com.crm.qa.pages.LoginPage;
 
 public class LoginTest extends TestBase{
 	
+	Logger log=Logger.getLogger(LoginTest.class);
 	LoginPage loginPage;
 	public LoginTest(){
 		super();
@@ -24,6 +26,7 @@ public class LoginTest extends TestBase{
 	@Test(priority=1)
 	public void verifyLoginPageTitle(){
 		String title=loginPage.validateLoginTitle();
+		log.info("Application Title is: "+title);
 		Assert.assertEquals(title, "Faebook – log in or sign up");
 	}
 	

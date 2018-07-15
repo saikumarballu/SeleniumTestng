@@ -1,0 +1,375 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite tests="5" failures="1" name="TestSuite" time="20.99" errors="0" skipped="0">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\bin"/>
+    <property name="java.vm.version" value="25.131-b11"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="S:\workspace\MavenProject"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="US"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="S:\workspace\MavenProject"/>
+    <property name="java.runtime.version" value="1.8.0_131-b11"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\saiku\AppData\Local\Temp\"/>
+    <property name="line.separator" value="
+"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="S:\Softwares\selenium\apache-maven-3.5.4\bin\..\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_131\bin;C:\WINDOWS\Sun\Java\bin;C:\WINDOWS\system32;C:\WINDOWS;C:\oraclexe\app\oracle\product\11.2.0\server\bin;C:\Python27\;C:\Python27\Scripts;C:\ProgramData\Oracle\Java\javapath;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\WINDOWS\System32\OpenSSH\;S:\Softwares\selenium\apache-maven-3.5.4\bin;C:\Program Files\Git\cmd;C:\Program Files\PuTTY\;C:\Users\saiku\AppData\Local\Microsoft\WindowsApps;;."/>
+    <property name="maven.conf" value="S:\Softwares\selenium\apache-maven-3.5.4\bin\../conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="S:\Softwares\selenium\apache-maven-3.5.4\bin\..\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\saiku"/>
+    <property name="user.timezone" value="Asia/Calcutta"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="saiku"/>
+    <property name="java.class.path" value="S:\Softwares\selenium\apache-maven-3.5.4\bin\..\boot\plexus-classworlds-2.5.2.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_131\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean test"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_131"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\ext;C:\WINDOWS\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_131\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_131\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_131\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="S:\Softwares\selenium\apache-maven-3.5.4\bin\.."/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifySearchFriends" time="2.026"/>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifySearchFriends" time="6.479"/>
+  <testcase classname="com.crm.qa.testcases.HomePageTest" name="verifySearchFriends" time="3.891"/>
+  <testcase classname="com.crm.qa.testcases.LoginTest" name="verifyLoginPageTitle" time="0.429">
+    <failure message="expected [Faebook – log in or sign up] but found [Facebook – log in or sign up]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Faebook – log in or sign up] but found [Facebook – log in or sign up]
+	at org.testng.Assert.fail(Assert.java:93)
+	at org.testng.Assert.failNotEquals(Assert.java:512)
+	at org.testng.Assert.assertEqualsImpl(Assert.java:134)
+	at org.testng.Assert.assertEquals(Assert.java:115)
+	at org.testng.Assert.assertEquals(Assert.java:189)
+	at org.testng.Assert.assertEquals(Assert.java:199)
+	at com.crm.qa.testcases.LoginTest.verifyLoginPageTitle(LoginTest.java:27)
+</failure>
+    <system-out>07-15-2018 17:46:32 RequestAddCookies.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+07-15-2018 17:46:32 RequestAuthCache.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+07-15-2018 17:46:32 PoolingHttpClientConnectionManager.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}-&gt;http://localhost:8887][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+07-15-2018 17:46:32 PoolingHttpClientConnectionManager.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 2][route: {}-&gt;http://localhost:8887][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+07-15-2018 17:46:32 MainClientExec.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] execchain.MainClientExec 208 - Stale connection check
+07-15-2018 17:46:32 Wire.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] http.wire 87 - http-outgoing-2 &lt;&lt; &quot;[read] I/O error: Read timed out&quot;
+07-15-2018 17:46:32 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-2: set socket timeout to 10800000
+07-15-2018 17:46:32 MainClientExec.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] execchain.MainClientExec 256 - Executing request DELETE /session/94d0a1b7d6a91f1e9e4cde45aefebbe0 HTTP/1.1
+07-15-2018 17:46:32 MainClientExec.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+07-15-2018 17:46:32 MainClientExec.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+07-15-2018 17:46:32 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] http.headers 133 - http-outgoing-2 &gt;&gt; DELETE /session/94d0a1b7d6a91f1e9e4cde45aefebbe0 HTTP/1.1
+07-15-2018 17:46:32 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] http.headers 136 - http-outgoing-2 &gt;&gt; Host: localhost:8887
+07-15-2018 17:46:32 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] http.headers 136 - http-outgoing-2 &gt;&gt; Connection: Keep-Alive
+07-15-2018 17:46:32 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] http.headers 136 - http-outgoing-2 &gt;&gt; User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+07-15-2018 17:46:32 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] http.headers 136 - http-outgoing-2 &gt;&gt; Accept-Encoding: gzip,deflate
+07-15-2018 17:46:32 Wire.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] http.wire 73 - http-outgoing-2 &gt;&gt; &quot;DELETE /session/94d0a1b7d6a91f1e9e4cde45aefebbe0 HTTP/1.1[\r][\n]&quot;
+07-15-2018 17:46:32 Wire.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] http.wire 73 - http-outgoing-2 &gt;&gt; &quot;Host: localhost:8887[\r][\n]&quot;
+07-15-2018 17:46:32 Wire.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] http.wire 73 - http-outgoing-2 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
+07-15-2018 17:46:32 Wire.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] http.wire 73 - http-outgoing-2 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]&quot;
+07-15-2018 17:46:32 Wire.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] http.wire 73 - http-outgoing-2 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;
+07-15-2018 17:46:32 Wire.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] http.wire 73 - http-outgoing-2 &gt;&gt; &quot;[\r][\n]&quot;
+07-15-2018 17:46:33 Wire.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] http.wire 73 - http-outgoing-2 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;
+07-15-2018 17:46:33 Wire.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] http.wire 73 - http-outgoing-2 &lt;&lt; &quot;Content-Length:72[\r][\n]&quot;
+07-15-2018 17:46:33 Wire.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] http.wire 73 - http-outgoing-2 &lt;&lt; &quot;Content-Type:application/json; charset=utf-8[\r][\n]&quot;
+07-15-2018 17:46:33 Wire.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] http.wire 73 - http-outgoing-2 &lt;&lt; &quot;[\r][\n]&quot;
+07-15-2018 17:46:33 Wire.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] http.wire 87 - http-outgoing-2 &lt;&lt; &quot;{&quot;sessionId&quot;:&quot;94d0a1b7d6a91f1e9e4cde45aefebbe0&quot;,&quot;status&quot;:0,&quot;value&quot;:null}&quot;
+07-15-2018 17:46:33 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] http.headers 122 - http-outgoing-2 &lt;&lt; HTTP/1.1 200 OK
+07-15-2018 17:46:33 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] http.headers 125 - http-outgoing-2 &lt;&lt; Content-Length:72
+07-15-2018 17:46:33 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] http.headers 125 - http-outgoing-2 &lt;&lt; Content-Type:application/json; charset=utf-8
+07-15-2018 17:46:33 MainClientExec.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+07-15-2018 17:46:33 PoolingHttpClientConnectionManager.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 2][route: {}-&gt;http://localhost:8887] can be kept alive indefinitely
+07-15-2018 17:46:33 PoolingHttpClientConnectionManager.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 2][route: {}-&gt;http://localhost:8887][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+07-15-2018 17:46:33 PoolingHttpClientConnectionManager.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] conn.PoolingHttpClientConnectionManager 407 - Closing connections idle longer than 0 SECONDS
+07-15-2018 17:46:33 LoggingManagedHttpClientConnection.java DEBUG [Forwarding quit on session 94d0a1b7d6a91f1e9e4cde45aefebbe0 to remote] conn.DefaultManagedHttpClientConnection 79 - http-outgoing-2: Close connection
+07-15-2018 17:46:34 RequestAddCookies.java DEBUG [Forwarding newSession on session null to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+07-15-2018 17:46:34 RequestAuthCache.java DEBUG [Forwarding newSession on session null to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+07-15-2018 17:46:34 PoolingHttpClientConnectionManager.java DEBUG [Forwarding newSession on session null to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}-&gt;http://localhost:2961][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+07-15-2018 17:46:34 PoolingHttpClientConnectionManager.java DEBUG [Forwarding newSession on session null to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 3][route: {}-&gt;http://localhost:2961][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+07-15-2018 17:46:34 MainClientExec.java DEBUG [Forwarding newSession on session null to remote] execchain.MainClientExec 235 - Opening connection {}-&gt;http://localhost:2961
+07-15-2018 17:46:34 DefaultHttpClientConnectionOperator.java DEBUG [Forwarding newSession on session null to remote] conn.DefaultHttpClientConnectionOperator 139 - Connecting to localhost/127.0.0.1:2961
+07-15-2018 17:46:34 DefaultHttpClientConnectionOperator.java DEBUG [Forwarding newSession on session null to remote] conn.DefaultHttpClientConnectionOperator 146 - Connection established 127.0.0.1:57503&lt;-&gt;127.0.0.1:2961
+07-15-2018 17:46:34 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-3: set socket timeout to 10800000
+07-15-2018 17:46:34 MainClientExec.java DEBUG [Forwarding newSession on session null to remote] execchain.MainClientExec 256 - Executing request POST /session HTTP/1.1
+07-15-2018 17:46:34 MainClientExec.java DEBUG [Forwarding newSession on session null to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+07-15-2018 17:46:34 MainClientExec.java DEBUG [Forwarding newSession on session null to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+07-15-2018 17:46:34 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 133 - http-outgoing-3 &gt;&gt; POST /session HTTP/1.1
+07-15-2018 17:46:34 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Content-Type: application/json; charset=utf-8
+07-15-2018 17:46:34 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Content-Length: 740
+07-15-2018 17:46:34 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Host: localhost:2961
+07-15-2018 17:46:34 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Connection: Keep-Alive
+07-15-2018 17:46:34 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 136 - http-outgoing-3 &gt;&gt; User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+07-15-2018 17:46:34 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Accept-Encoding: gzip,deflate
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;POST /session HTTP/1.1[\r][\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Content-Type: application/json; charset=utf-8[\r][\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Content-Length: 740[\r][\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Host: localhost:2961[\r][\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;[\r][\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;{[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;  &quot;desiredCapabilities&quot;: {[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;    &quot;browserName&quot;: &quot;chrome&quot;,[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;    &quot;chromeOptions&quot;: {[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;      &quot;args&quot;: [],[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;      &quot;extensions&quot;: [],[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;      &quot;prefs&quot;: {[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;        &quot;profile.default_content_setting_values.notifications&quot;: 1[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;      }[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;    },[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;    &quot;version&quot;: &quot;&quot;,[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;    &quot;platform&quot;: &quot;ANY&quot;[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;  },[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;  &quot;requiredCapabilities&quot;: {},[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;  &quot;capabilities&quot;: {[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;    &quot;desiredCapabilities&quot;: {[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;      &quot;browserName&quot;: &quot;chrome&quot;,[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;      &quot;chromeOptions&quot;: {[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;        &quot;args&quot;: [],[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;        &quot;extensions&quot;: [],[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;        &quot;prefs&quot;: {[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;          &quot;profile.default_content_setting_values.notifications&quot;: 1[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;        }[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;      },[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;      &quot;version&quot;: &quot;&quot;,[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;      &quot;platform&quot;: &quot;ANY&quot;[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;    },[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;    &quot;requiredCapabilities&quot;: {},[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;    &quot;alwaysMatch&quot;: {},[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;    &quot;firstMatch&quot;: [[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;      {[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;        &quot;browserName&quot;: &quot;chrome&quot;[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;      }[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;    ][\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;  }[\n]&quot;
+07-15-2018 17:46:34 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 87 - http-outgoing-3 &gt;&gt; &quot;}&quot;
+07-15-2018 17:46:36 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;
+07-15-2018 17:46:36 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;Content-Length:829[\r][\n]&quot;
+07-15-2018 17:46:36 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;Content-Type:application/json; charset=utf-8[\r][\n]&quot;
+07-15-2018 17:46:36 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;[\r][\n]&quot;
+07-15-2018 17:46:36 Wire.java DEBUG [Forwarding newSession on session null to remote] http.wire 87 - http-outgoing-3 &lt;&lt; &quot;{&quot;sessionId&quot;:&quot;d13711666851414a23926d99a70c693d&quot;,&quot;status&quot;:0,&quot;value&quot;:{&quot;acceptInsecureCerts&quot;:false,&quot;acceptSslCerts&quot;:false,&quot;applicationCacheEnabled&quot;:false,&quot;browserConnectionEnabled&quot;:false,&quot;browserName&quot;:&quot;chrome&quot;,&quot;chrome&quot;:{&quot;chromedriverVersion&quot;:&quot;2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7)&quot;,&quot;userDataDir&quot;:&quot;C:\\Users\\saiku\\AppData\\Local\\Temp\\scoped_dir16152_12299&quot;},&quot;cssSelectorsEnabled&quot;:true,&quot;databaseEnabled&quot;:false,&quot;handlesAlerts&quot;:true,&quot;hasTouchScreen&quot;:false,&quot;javascriptEnabled&quot;:true,&quot;locationContextEnabled&quot;:true,&quot;mobileEmulationEnabled&quot;:false,&quot;nativeEvents&quot;:true,&quot;networkConnectionEnabled&quot;:false,&quot;pageLoadStrategy&quot;:&quot;normal&quot;,&quot;platform&quot;:&quot;Windows NT&quot;,&quot;rotatable&quot;:false,&quot;setWindowRect&quot;:true,&quot;takesHeapSnapshot&quot;:true,&quot;takesScreenshot&quot;:true,&quot;unexpectedAlertBehaviour&quot;:&quot;&quot;,&quot;version&quot;:&quot;67.0.3396.99&quot;,&quot;webStorageEnabled&quot;:true}}&quot;
+07-15-2018 17:46:36 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 122 - http-outgoing-3 &lt;&lt; HTTP/1.1 200 OK
+07-15-2018 17:46:36 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 125 - http-outgoing-3 &lt;&lt; Content-Length:829
+07-15-2018 17:46:36 LoggingManagedHttpClientConnection.java DEBUG [Forwarding newSession on session null to remote] http.headers 125 - http-outgoing-3 &lt;&lt; Content-Type:application/json; charset=utf-8
+07-15-2018 17:46:36 MainClientExec.java DEBUG [Forwarding newSession on session null to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+07-15-2018 17:46:36 PoolingHttpClientConnectionManager.java DEBUG [Forwarding newSession on session null to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 3][route: {}-&gt;http://localhost:2961] can be kept alive indefinitely
+07-15-2018 17:46:36 PoolingHttpClientConnectionManager.java DEBUG [Forwarding newSession on session null to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 3][route: {}-&gt;http://localhost:2961][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+07-15-2018 17:46:36 RequestAddCookies.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+07-15-2018 17:46:36 RequestAuthCache.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+07-15-2018 17:46:36 PoolingHttpClientConnectionManager.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}-&gt;http://localhost:2961][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+07-15-2018 17:46:36 PoolingHttpClientConnectionManager.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 3][route: {}-&gt;http://localhost:2961][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+07-15-2018 17:46:36 MainClientExec.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] execchain.MainClientExec 208 - Stale connection check
+07-15-2018 17:46:36 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] http.wire 87 - http-outgoing-3 &lt;&lt; &quot;[read] I/O error: Read timed out&quot;
+07-15-2018 17:46:36 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-3: set socket timeout to 10800000
+07-15-2018 17:46:36 MainClientExec.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] execchain.MainClientExec 256 - Executing request POST /session/d13711666851414a23926d99a70c693d/window/current/maximize HTTP/1.1
+07-15-2018 17:46:36 MainClientExec.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+07-15-2018 17:46:36 MainClientExec.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+07-15-2018 17:46:36 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] http.headers 133 - http-outgoing-3 &gt;&gt; POST /session/d13711666851414a23926d99a70c693d/window/current/maximize HTTP/1.1
+07-15-2018 17:46:36 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Content-Type: application/json; charset=utf-8
+07-15-2018 17:46:36 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Content-Length: 45
+07-15-2018 17:46:36 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Host: localhost:2961
+07-15-2018 17:46:36 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Connection: Keep-Alive
+07-15-2018 17:46:36 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] http.headers 136 - http-outgoing-3 &gt;&gt; User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+07-15-2018 17:46:36 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Accept-Encoding: gzip,deflate
+07-15-2018 17:46:36 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;POST /session/d13711666851414a23926d99a70c693d/window/current/maximize HTTP/1.1[\r][\n]&quot;
+07-15-2018 17:46:36 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Content-Type: application/json; charset=utf-8[\r][\n]&quot;
+07-15-2018 17:46:36 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Content-Length: 45[\r][\n]&quot;
+07-15-2018 17:46:36 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Host: localhost:2961[\r][\n]&quot;
+07-15-2018 17:46:36 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
+07-15-2018 17:46:36 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]&quot;
+07-15-2018 17:46:36 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;
+07-15-2018 17:46:36 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;[\r][\n]&quot;
+07-15-2018 17:46:36 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] http.wire 87 - http-outgoing-3 &gt;&gt; &quot;{&quot;windowHandle&quot;:&quot;current&quot;,&quot;handle&quot;:&quot;current&quot;}&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;Content-Length:72[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;Content-Type:application/json; charset=utf-8[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] http.wire 87 - http-outgoing-3 &lt;&lt; &quot;{&quot;sessionId&quot;:&quot;d13711666851414a23926d99a70c693d&quot;,&quot;status&quot;:0,&quot;value&quot;:null}&quot;
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] http.headers 122 - http-outgoing-3 &lt;&lt; HTTP/1.1 200 OK
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] http.headers 125 - http-outgoing-3 &lt;&lt; Content-Length:72
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] http.headers 125 - http-outgoing-3 &lt;&lt; Content-Type:application/json; charset=utf-8
+07-15-2018 17:46:37 MainClientExec.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+07-15-2018 17:46:37 PoolingHttpClientConnectionManager.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 3][route: {}-&gt;http://localhost:2961] can be kept alive indefinitely
+07-15-2018 17:46:37 PoolingHttpClientConnectionManager.java DEBUG [Forwarding maximizeCurrentWindow on session d13711666851414a23926d99a70c693d to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 3][route: {}-&gt;http://localhost:2961][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+07-15-2018 17:46:37 RequestAddCookies.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+07-15-2018 17:46:37 RequestAuthCache.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+07-15-2018 17:46:37 PoolingHttpClientConnectionManager.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}-&gt;http://localhost:2961][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+07-15-2018 17:46:37 PoolingHttpClientConnectionManager.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 3][route: {}-&gt;http://localhost:2961][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+07-15-2018 17:46:37 MainClientExec.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] execchain.MainClientExec 208 - Stale connection check
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] http.wire 87 - http-outgoing-3 &lt;&lt; &quot;[read] I/O error: Read timed out&quot;
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-3: set socket timeout to 10800000
+07-15-2018 17:46:37 MainClientExec.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] execchain.MainClientExec 256 - Executing request DELETE /session/d13711666851414a23926d99a70c693d/cookie HTTP/1.1
+07-15-2018 17:46:37 MainClientExec.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+07-15-2018 17:46:37 MainClientExec.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] http.headers 133 - http-outgoing-3 &gt;&gt; DELETE /session/d13711666851414a23926d99a70c693d/cookie HTTP/1.1
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Host: localhost:2961
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Connection: Keep-Alive
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] http.headers 136 - http-outgoing-3 &gt;&gt; User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Accept-Encoding: gzip,deflate
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;DELETE /session/d13711666851414a23926d99a70c693d/cookie HTTP/1.1[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Host: localhost:2961[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;Content-Length:72[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;Content-Type:application/json; charset=utf-8[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] http.wire 87 - http-outgoing-3 &lt;&lt; &quot;{&quot;sessionId&quot;:&quot;d13711666851414a23926d99a70c693d&quot;,&quot;status&quot;:0,&quot;value&quot;:null}&quot;
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] http.headers 122 - http-outgoing-3 &lt;&lt; HTTP/1.1 200 OK
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] http.headers 125 - http-outgoing-3 &lt;&lt; Content-Length:72
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] http.headers 125 - http-outgoing-3 &lt;&lt; Content-Type:application/json; charset=utf-8
+07-15-2018 17:46:37 MainClientExec.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+07-15-2018 17:46:37 PoolingHttpClientConnectionManager.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 3][route: {}-&gt;http://localhost:2961] can be kept alive indefinitely
+07-15-2018 17:46:37 PoolingHttpClientConnectionManager.java DEBUG [Forwarding deleteAllCookies on session d13711666851414a23926d99a70c693d to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 3][route: {}-&gt;http://localhost:2961][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+07-15-2018 17:46:37 RequestAddCookies.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+07-15-2018 17:46:37 RequestAuthCache.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+07-15-2018 17:46:37 PoolingHttpClientConnectionManager.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}-&gt;http://localhost:2961][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+07-15-2018 17:46:37 PoolingHttpClientConnectionManager.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 3][route: {}-&gt;http://localhost:2961][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+07-15-2018 17:46:37 MainClientExec.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] execchain.MainClientExec 208 - Stale connection check
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] http.wire 87 - http-outgoing-3 &lt;&lt; &quot;[read] I/O error: Read timed out&quot;
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-3: set socket timeout to 10800000
+07-15-2018 17:46:37 MainClientExec.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] execchain.MainClientExec 256 - Executing request POST /session/d13711666851414a23926d99a70c693d/timeouts HTTP/1.1
+07-15-2018 17:46:37 MainClientExec.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+07-15-2018 17:46:37 MainClientExec.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] http.headers 133 - http-outgoing-3 &gt;&gt; POST /session/d13711666851414a23926d99a70c693d/timeouts HTTP/1.1
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Content-Type: application/json; charset=utf-8
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Content-Length: 30
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Host: localhost:2961
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Connection: Keep-Alive
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] http.headers 136 - http-outgoing-3 &gt;&gt; User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Accept-Encoding: gzip,deflate
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;POST /session/d13711666851414a23926d99a70c693d/timeouts HTTP/1.1[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Content-Type: application/json; charset=utf-8[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Content-Length: 30[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Host: localhost:2961[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] http.wire 87 - http-outgoing-3 &gt;&gt; &quot;{&quot;type&quot;:&quot;implicit&quot;,&quot;ms&quot;:60000}&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;Content-Length:72[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;Content-Type:application/json; charset=utf-8[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] http.wire 87 - http-outgoing-3 &lt;&lt; &quot;{&quot;sessionId&quot;:&quot;d13711666851414a23926d99a70c693d&quot;,&quot;status&quot;:0,&quot;value&quot;:null}&quot;
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] http.headers 122 - http-outgoing-3 &lt;&lt; HTTP/1.1 200 OK
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] http.headers 125 - http-outgoing-3 &lt;&lt; Content-Length:72
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] http.headers 125 - http-outgoing-3 &lt;&lt; Content-Type:application/json; charset=utf-8
+07-15-2018 17:46:37 MainClientExec.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+07-15-2018 17:46:37 PoolingHttpClientConnectionManager.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 3][route: {}-&gt;http://localhost:2961] can be kept alive indefinitely
+07-15-2018 17:46:37 PoolingHttpClientConnectionManager.java DEBUG [Forwarding setTimeout on session d13711666851414a23926d99a70c693d to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 3][route: {}-&gt;http://localhost:2961][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Before navigating to: &apos;https://www.facebook.com&apos;
+07-15-2018 17:46:37 RequestAddCookies.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+07-15-2018 17:46:37 RequestAuthCache.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+07-15-2018 17:46:37 PoolingHttpClientConnectionManager.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}-&gt;http://localhost:2961][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+07-15-2018 17:46:37 PoolingHttpClientConnectionManager.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 3][route: {}-&gt;http://localhost:2961][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+07-15-2018 17:46:37 MainClientExec.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] execchain.MainClientExec 208 - Stale connection check
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] http.wire 87 - http-outgoing-3 &lt;&lt; &quot;[read] I/O error: Read timed out&quot;
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-3: set socket timeout to 10800000
+07-15-2018 17:46:37 MainClientExec.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] execchain.MainClientExec 256 - Executing request POST /session/d13711666851414a23926d99a70c693d/url HTTP/1.1
+07-15-2018 17:46:37 MainClientExec.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+07-15-2018 17:46:37 MainClientExec.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] http.headers 133 - http-outgoing-3 &gt;&gt; POST /session/d13711666851414a23926d99a70c693d/url HTTP/1.1
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Content-Type: application/json; charset=utf-8
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Content-Length: 34
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Host: localhost:2961
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Connection: Keep-Alive
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] http.headers 136 - http-outgoing-3 &gt;&gt; User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+07-15-2018 17:46:37 LoggingManagedHttpClientConnection.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Accept-Encoding: gzip,deflate
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;POST /session/d13711666851414a23926d99a70c693d/url HTTP/1.1[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Content-Type: application/json; charset=utf-8[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Content-Length: 34[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Host: localhost:2961[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;[\r][\n]&quot;
+07-15-2018 17:46:37 Wire.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] http.wire 87 - http-outgoing-3 &gt;&gt; &quot;{&quot;url&quot;:&quot;https://www.facebook.com&quot;}&quot;
+07-15-2018 17:47:03 Wire.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;
+07-15-2018 17:47:03 Wire.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;Content-Length:72[\r][\n]&quot;
+07-15-2018 17:47:03 Wire.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;Content-Type:application/json; charset=utf-8[\r][\n]&quot;
+07-15-2018 17:47:03 Wire.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;[\r][\n]&quot;
+07-15-2018 17:47:03 Wire.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] http.wire 87 - http-outgoing-3 &lt;&lt; &quot;{&quot;sessionId&quot;:&quot;d13711666851414a23926d99a70c693d&quot;,&quot;status&quot;:0,&quot;value&quot;:null}&quot;
+07-15-2018 17:47:03 LoggingManagedHttpClientConnection.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] http.headers 122 - http-outgoing-3 &lt;&lt; HTTP/1.1 200 OK
+07-15-2018 17:47:03 LoggingManagedHttpClientConnection.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] http.headers 125 - http-outgoing-3 &lt;&lt; Content-Length:72
+07-15-2018 17:47:03 LoggingManagedHttpClientConnection.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] http.headers 125 - http-outgoing-3 &lt;&lt; Content-Type:application/json; charset=utf-8
+07-15-2018 17:47:03 MainClientExec.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+07-15-2018 17:47:03 PoolingHttpClientConnectionManager.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 3][route: {}-&gt;http://localhost:2961] can be kept alive indefinitely
+07-15-2018 17:47:03 PoolingHttpClientConnectionManager.java DEBUG [Forwarding get on session d13711666851414a23926d99a70c693d to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 3][route: {}-&gt;http://localhost:2961][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+Navigated to:&apos;https://www.facebook.com&apos;
+07-15-2018 17:47:03 RequestAddCookies.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] protocol.RequestAddCookies 123 - CookieSpec selected: default
+07-15-2018 17:47:03 RequestAuthCache.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] protocol.RequestAuthCache 77 - Auth cache not set in the context
+07-15-2018 17:47:03 PoolingHttpClientConnectionManager.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] conn.PoolingHttpClientConnectionManager 255 - Connection request: [route: {}-&gt;http://localhost:2961][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+07-15-2018 17:47:03 PoolingHttpClientConnectionManager.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] conn.PoolingHttpClientConnectionManager 288 - Connection leased: [id: 3][route: {}-&gt;http://localhost:2961][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+07-15-2018 17:47:03 MainClientExec.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] execchain.MainClientExec 208 - Stale connection check
+07-15-2018 17:47:03 Wire.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] http.wire 87 - http-outgoing-3 &lt;&lt; &quot;[read] I/O error: Read timed out&quot;
+07-15-2018 17:47:03 LoggingManagedHttpClientConnection.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] conn.DefaultManagedHttpClientConnection 88 - http-outgoing-3: set socket timeout to 10800000
+07-15-2018 17:47:03 MainClientExec.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] execchain.MainClientExec 256 - Executing request GET /session/d13711666851414a23926d99a70c693d/title HTTP/1.1
+07-15-2018 17:47:03 MainClientExec.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] execchain.MainClientExec 261 - Target auth state: UNCHALLENGED
+07-15-2018 17:47:03 MainClientExec.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] execchain.MainClientExec 267 - Proxy auth state: UNCHALLENGED
+07-15-2018 17:47:03 LoggingManagedHttpClientConnection.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] http.headers 133 - http-outgoing-3 &gt;&gt; GET /session/d13711666851414a23926d99a70c693d/title HTTP/1.1
+07-15-2018 17:47:03 LoggingManagedHttpClientConnection.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Cache-Control: no-cache
+07-15-2018 17:47:03 LoggingManagedHttpClientConnection.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Host: localhost:2961
+07-15-2018 17:47:03 LoggingManagedHttpClientConnection.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Connection: Keep-Alive
+07-15-2018 17:47:03 LoggingManagedHttpClientConnection.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] http.headers 136 - http-outgoing-3 &gt;&gt; User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)
+07-15-2018 17:47:03 LoggingManagedHttpClientConnection.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] http.headers 136 - http-outgoing-3 &gt;&gt; Accept-Encoding: gzip,deflate
+07-15-2018 17:47:03 Wire.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;GET /session/d13711666851414a23926d99a70c693d/title HTTP/1.1[\r][\n]&quot;
+07-15-2018 17:47:03 Wire.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Cache-Control: no-cache[\r][\n]&quot;
+07-15-2018 17:47:03 Wire.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Host: localhost:2961[\r][\n]&quot;
+07-15-2018 17:47:03 Wire.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Connection: Keep-Alive[\r][\n]&quot;
+07-15-2018 17:47:03 Wire.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_131)[\r][\n]&quot;
+07-15-2018 17:47:03 Wire.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;Accept-Encoding: gzip,deflate[\r][\n]&quot;
+07-15-2018 17:47:03 Wire.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &gt;&gt; &quot;[\r][\n]&quot;
+07-15-2018 17:47:03 Wire.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;HTTP/1.1 200 OK[\r][\n]&quot;
+07-15-2018 17:47:03 Wire.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;Content-Length:100[\r][\n]&quot;
+07-15-2018 17:47:03 Wire.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;Content-Type:application/json; charset=utf-8[\r][\n]&quot;
+07-15-2018 17:47:03 Wire.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] http.wire 73 - http-outgoing-3 &lt;&lt; &quot;[\r][\n]&quot;
+07-15-2018 17:47:03 Wire.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] http.wire 87 - http-outgoing-3 &lt;&lt; &quot;{&quot;sessionId&quot;:&quot;d13711666851414a23926d99a70c693d&quot;,&quot;status&quot;:0,&quot;value&quot;:&quot;Facebook [0xe2][0x80][0x93] log in or sign up&quot;}&quot;
+07-15-2018 17:47:03 LoggingManagedHttpClientConnection.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] http.headers 122 - http-outgoing-3 &lt;&lt; HTTP/1.1 200 OK
+07-15-2018 17:47:03 LoggingManagedHttpClientConnection.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] http.headers 125 - http-outgoing-3 &lt;&lt; Content-Length:100
+07-15-2018 17:47:03 LoggingManagedHttpClientConnection.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] http.headers 125 - http-outgoing-3 &lt;&lt; Content-Type:application/json; charset=utf-8
+07-15-2018 17:47:03 MainClientExec.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] execchain.MainClientExec 285 - Connection can be kept alive indefinitely
+07-15-2018 17:47:03 PoolingHttpClientConnectionManager.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] conn.PoolingHttpClientConnectionManager 320 - Connection [id: 3][route: {}-&gt;http://localhost:2961] can be kept alive indefinitely
+07-15-2018 17:47:03 PoolingHttpClientConnectionManager.java DEBUG [Forwarding getTitle on session d13711666851414a23926d99a70c693d to remote] conn.PoolingHttpClientConnectionManager 326 - Connection released: [id: 3][route: {}-&gt;http://localhost:2961][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+</system-out>
+    <system-err>Starting ChromeDriver 2.37.544315 (730aa6a5fdba159ac9f4c1e8cbc59bf1b5ce12b7) on port 2961
+Only local connections are allowed.
+Jul 15, 2018 5:46:36 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: OSS
+</system-err>
+  </testcase>
+  <testcase classname="com.crm.qa.testcases.LoginTest" name="verifyLoginPage" time="8.165"/>
+</testsuite>
