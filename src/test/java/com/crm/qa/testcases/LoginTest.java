@@ -22,13 +22,13 @@ public class LoginTest extends TestBase{
 	}
 	
 	@Test(priority=1)
-	public void validateLoginPageTitle(){
+	public void verifyLoginPageTitle(){
 		String title=loginPage.validateLoginTitle();
-		Assert.assertEquals(title, "Facebook – log in or sign up");
+		Assert.assertEquals(title, "Faebook – log in or sign up");
 	}
 	
 	@Test(priority=2)
-	public void loginTest(){
+	public void verifyLoginPage(){
 		loginPage.login(prop.getProperty("username"), prop.getProperty("password"));
 	}
 	

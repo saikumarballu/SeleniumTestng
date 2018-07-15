@@ -1,9 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="MavenProject" thread-count="2" parallel="methods">
-  <test name="SeleniumProject" >
+<suite name="MavenProject">
+  <listeners>
+  <listener class-name="com.crm.qa.extentreport.ExtentReportListener"></listener>
+  </listeners>
+  
+  <test preserve-order="true" name="Selenium FB Project" >
     <classes>
       <class name="com.crm.qa.testcases.LoginTest"> </class>      
+      <class name="com.crm.qa.testcases.HomePageTest"> </class>
     </classes>
  </test>
 </suite>

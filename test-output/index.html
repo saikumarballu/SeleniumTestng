@@ -24,7 +24,7 @@
     <div class="top-banner-root">
       <span class="top-banner-title-font">Test results</span>
       <br/>
-      <span class="top-banner-font-1">1 suite</span>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
     </div> <!-- top-banner-root -->
     <div class="navigator-root">
       <div class="navigator-suite-header">
@@ -38,7 +38,7 @@
         <div class="rounded-window">
           <div class="suite-header light-rounded-window-top">
             <a href="#" class="navigator-link" panel-name="suite-MavenProject">
-              <span class="suite-name border-passed">MavenProject</span>
+              <span class="suite-name border-failed">MavenProject</span>
             </a> <!-- navigator-link -->
           </div> <!-- suite-header light-rounded-window-top -->
           <div class="navigator-suite-content">
@@ -91,7 +91,21 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">2 methods,   2 passed</span>
+                    <span class="method-stats">5 methods, 1 failed,   4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-MavenProject" class="hide-methods failed suite-MavenProject"> (hide)</a> <!-- hide-methods failed suite-MavenProject -->
+                      <a href="#" panel-name="suite-MavenProject" class="show-methods failed suite-MavenProject"> (show)</a> <!-- show-methods failed suite-MavenProject -->
+                    </span>
+                    <div class="method-list-content failed suite-MavenProject">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MavenProject" title="com.crm.qa.testcases.LoginTest" hash-for-method="verifyLoginPageTitle">verifyLoginPageTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-MavenProject -->
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -102,12 +116,22 @@
                     <div class="method-list-content passed suite-MavenProject">
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-MavenProject" title="com.crm.qa.testcases.LoginTest" hash-for-method="loginTest">loginTest</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-MavenProject" title="com.crm.qa.testcases.LoginTest" hash-for-method="verifyLoginPage">verifyLoginPage</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img width="3%" src="passed.png"/>
-                        <a href="#" class="method navigator-link" panel-name="suite-MavenProject" title="com.crm.qa.testcases.LoginTest" hash-for-method="validateLoginPageTitle">validateLoginPageTitle</a> <!-- method navigator-link -->
+                        <a href="#" class="method navigator-link" panel-name="suite-MavenProject" title="com.crm.qa.testcases.HomePageTest" hash-for-method="verifySearchFriends(Koshore)">verifySearchFriends(Koshore)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MavenProject" title="com.crm.qa.testcases.HomePageTest" hash-for-method="verifySearchFriends(Shravya)">verifySearchFriends(Shravya)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-MavenProject" title="com.crm.qa.testcases.HomePageTest" hash-for-method="verifySearchFriends(Saikumar)">verifySearchFriends(Saikumar)</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-MavenProject -->
@@ -122,6 +146,25 @@
     <div class="wrapper">
       <div class="main-panel-root">
         <div panel-name="suite-MavenProject" class="panel MavenProject">
+          <div class="suite-MavenProject-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.crm.qa.testcases.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifyLoginPageTitle">
+                  </a> <!-- verifyLoginPageTitle -->
+                  <span class="method-name">verifyLoginPageTitle</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Faebook – log in or sign up] but found [Facebook – log in or sign up]
+	at com.crm.qa.testcases.LoginTest.verifyLoginPageTitle(LoginTest.java:27)
+... Removed 31 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MavenProject-class-failed -->
           <div class="suite-MavenProject-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
@@ -130,16 +173,41 @@
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="loginTest">
-                  </a> <!-- loginTest -->
-                  <span class="method-name">loginTest</span>
+                  <a name="verifyLoginPage">
+                  </a> <!-- verifyLoginPage -->
+                  <span class="method-name">verifyLoginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-MavenProject-class-passed -->
+          <div class="suite-MavenProject-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.crm.qa.testcases.HomePageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchFriends(Koshore)">
+                  </a> <!-- verifySearchFriends(Koshore) -->
+                  <span class="method-name">verifySearchFriends</span>
+                  <span class="parameters">(Koshore)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
               <div class="method">
                 <div class="method-content">
-                  <a name="validateLoginPageTitle">
-                  </a> <!-- validateLoginPageTitle -->
-                  <span class="method-name">validateLoginPageTitle</span>
+                  <a name="verifySearchFriends(Shravya)">
+                  </a> <!-- verifySearchFriends(Shravya) -->
+                  <span class="method-name">verifySearchFriends</span>
+                  <span class="parameters">(Shravya)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="verifySearchFriends(Saikumar)">
+                  </a> <!-- verifySearchFriends(Saikumar) -->
+                  <span class="method-name">verifySearchFriends</span>
+                  <span class="parameters">(Saikumar)</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -153,12 +221,16 @@
             <pre>
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
-&lt;suite thread-count=&quot;2&quot; guice-stage=&quot;DEVELOPMENT&quot; name=&quot;MavenProject&quot; parallel=&quot;methods&quot;&gt;
-  &lt;test name=&quot;SeleniumProject&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;MavenProject&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.crm.qa.extentreport.ExtentReportListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Selenium FB Project&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.crm.qa.testcases.LoginTest&quot;/&gt;
+      &lt;class name=&quot;com.crm.qa.testcases.HomePageTest&quot;/&gt;
     &lt;/classes&gt;
-  &lt;/test&gt; &lt;!-- SeleniumProject --&gt;
+  &lt;/test&gt; &lt;!-- Selenium FB Project --&gt;
 &lt;/suite&gt; &lt;!-- MavenProject --&gt;
             </pre>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -170,7 +242,7 @@
           <div class="main-panel-content rounded-window-bottom">
             <ul>
               <li>
-                <span class="test-name">SeleniumProject (1 class)</span>
+                <span class="test-name">Selenium FB Project (2 classes)</span>
               </li>
             </ul>
           </div> <!-- main-panel-content rounded-window-bottom -->
@@ -196,20 +268,32 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(2);
+data.addRows(5);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginTest')
+data.setCell(0, 1, 'verifyLoginPage')
 data.setCell(0, 2, 'com.crm.qa.testcases.LoginTest')
-data.setCell(0, 3, 20283);
+data.setCell(0, 3, 13701);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'validateLoginPageTitle')
-data.setCell(1, 2, 'com.crm.qa.testcases.LoginTest')
-data.setCell(1, 3, 66);
+data.setCell(1, 1, 'verifySearchFriends')
+data.setCell(1, 2, 'com.crm.qa.testcases.HomePageTest')
+data.setCell(1, 3, 6077);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'verifySearchFriends')
+data.setCell(2, 2, 'com.crm.qa.testcases.HomePageTest')
+data.setCell(2, 3, 3491);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'verifySearchFriends')
+data.setCell(3, 2, 'com.crm.qa.testcases.HomePageTest')
+data.setCell(3, 3, 2537);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'verifyLoginPageTitle')
+data.setCell(4, 2, 'com.crm.qa.testcases.LoginTest')
+data.setCell(4, 3, 70);
 window.suiteTableData['MavenProject']= { tableData: data, tableDiv: 'times-div-MavenProject'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 20 seconds</span>
+              <span class="suite-total-time">Total running time: 25 seconds</span>
               <div id="times-div-MavenProject">
               </div> <!-- times-div-MavenProject -->
             </div> <!-- times-div -->
@@ -235,30 +319,71 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.crm.qa.testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="chronological-class-name">com.crm.qa.testcases.HomePageTest</div> <!-- chronological-class-name -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">validateLoginPageTitle</span>
-                <span class="method-start">34689 ms</span>
+                <span class="method-name">verifySearchFriends(Saikumar)</span>
+                <span class="method-start">27464 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
-                <span class="method-name">closeBrowser</span>
-                <span class="method-start">34757 ms</span>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">30958 ms</span>
               </div> <!-- configuration-method after -->
               <div class="configuration-method before">
                 <span class="method-name">setUp</span>
-                <span class="method-start">35701 ms</span>
+                <span class="method-start">32262 ms</span>
               </div> <!-- configuration-method before -->
               <div class="test-method">
-                <span class="method-name">loginTest</span>
-                <span class="method-start">44847 ms</span>
+                <span class="method-name">verifySearchFriends(Shravya)</span>
+                <span class="method-start">48765 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">54845 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">56504 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifySearchFriends(Koshore)</span>
+                <span class="method-start">85083 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">87624 ms</span>
+              </div> <!-- configuration-method after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.crm.qa.testcases.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">88937 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">verifyLoginPageTitle</span>
+                <span class="method-start">103478 ms</span>
               </div> <!-- test-method -->
               <div class="configuration-method after">
                 <span class="method-name">closeBrowser</span>
-                <span class="method-start">65133 ms</span>
+                <span class="method-start">103719 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">104435 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">verifyLoginPage</span>
+                <span class="method-start">112147 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">closeBrowser</span>
+                <span class="method-start">125850 ms</span>
               </div> <!-- configuration-method after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
